@@ -1,7 +1,7 @@
 Prestamo Libros
 
 1. Clonar el repositorio
-git clone https://github.com/bracos9/book-loan.git
+git clone https://github.com/bracos9/prestamoLibros/tree/main
 cd book-loan
 
 2. Intalas las dependencias

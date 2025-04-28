@@ -8,7 +8,6 @@ interface BookAttributes {
   stock: number;
 }
 
-// Para la creación, el id puede ser opcional
 interface BookCreationAttributes extends Optional<BookAttributes, 'id'> {}
 
 class Book extends Model<BookAttributes, BookCreationAttributes> implements BookAttributes {

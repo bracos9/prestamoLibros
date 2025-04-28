@@ -1,16 +1,17 @@
 Prestamo Libros
 
 1. Clonar el repositorio
-git clone https://github.com/bracos9/prestamoLibros/tree/main
+git clone https://github.com/bracos9/prestamoLibros/
+
 cd book-loan
 
-2. Intalas las dependencias
+3. Intalas las dependencias
 npm install
 
-3. Compilar y correr el servidor
+4. Compilar y correr el servidor
 npm run dev
 
-4. Probar API en Postman
+5. Probar API en Postman
 POST /api/books
 
 PUT /api/books/:id
